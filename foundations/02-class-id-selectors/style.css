@@ -1,0 +1,25 @@
+/*-------------------ODDS-------------------*/
+.heading-odds {
+  background-color: rgb(255, 0, 0, 0.4);
+  font-size: 2rem;
+  font-family: "Verdana", "DejaVu Sans", sans-serif;
+  font-weight: 500;
+}
+/* ------------2 and 3 same font size-------------- */
+.sneaky-font-size {
+  font-size: 2.7rem;
+}
+/*-------------------Third Element------------------*/
+#slightly-bigger {
+  font-size: 2.7rem;
+}
+/*-------------------Second Element------------------*/
+#big-blue {
+  color: #1100ff;
+  font-size: 3.4rem;
+}
+/*-------------------Fourth Element------------------*/
+#baldy-green {
+  background-color: hsl(113, 100%, 50%);
+  font-weight: bold;
+}

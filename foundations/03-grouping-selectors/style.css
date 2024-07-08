@@ -1,13 +1,20 @@
+img {
+  margin-left: 0px;
+  padding-left: 0px;
+}
 .come_to_the_darkside {
   background-color: #000;
   color: #fff;
+  font-weight: bold;
+  margin-left: 4px;
 }
 .no-never {
-  background-color: rgb(255, 208, 0);
+  background-color: rgb(251, 255, 24);
 }
 
-.two-face {
-  font-size: 3rem;
+.come_to_the_darkside,
+.no-never {
+  font-size: 28px;
   font-family: "Helvetica", "Times New Roman", sans-serif;
-  border-width: 3px;
+  border-width: 2px;
 }

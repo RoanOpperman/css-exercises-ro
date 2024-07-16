@@ -1,6 +1,18 @@
-.header  {
+body {
+  /* vvvvvvvvvvvvCHANGESvvvvvvvvvvvv */
+  margin: 0;
+  /* ^^^^^^^^^^^^CHANGES^^^^^^^^^^^^*/
+}
+.header {
+  height: 60px;
   font-family: monospace;
   background: papayawhip;
+  /* vvvvvvvvvvvvCHANGESvvvvvvvvvvvv */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* ^^^^^^^^^^^^CHANGES^^^^^^^^^^^^*/
 }
 
 .logo {
@@ -14,8 +26,12 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /* vvvvvvvvvvvvCHANGESvvvvvvvvvvvv */
+  display: flex;
+  padding: 0;
+  gap: 10px;
+  /* ^^^^^^^^^^^^CHANGES^^^^^^^^^^^^*/
 }
-
 a {
   font-size: 22px;
   background: white;
